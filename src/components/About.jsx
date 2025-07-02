@@ -13,7 +13,7 @@ const About = () => {
         <p className='text-gray-500 max-w-80 text-center mb-8'>Passionate About Properties, Dedicated to Your Vision</p>
         <div className='flex flex-col md:flex-row items=center md:items-start md:gap-20'>
             <img src={assets.brand_img} alt="" className='w-full sm:w-1/2 max-w-lg'/>
-            <div className='flex flex-col items-center md:items-start mt-10 text-gray-600'>
+            <div className='flex flex-col items-center md:items-start mt-10 text-gray-600 '>
                 <div className='grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28'>
                     <div>
                         <p className='text-2xl font-medium text-gray-800'>10+</p>
@@ -32,7 +32,7 @@ const About = () => {
                         <p>Ongoing Project</p>
                     </div>
                 </div>
-                <p className='my-5 max-w-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse delectus cupiditate, incidunt enim aut animi, praesentium harum neque voluptate blanditiis! Libero tenetur amet quasi at quidem ad quibusdam eligendi.</p>
+                <p className='my-5 max-w-lg'><span className='font-bold'>EliteHaven </span>is a user-friendly real estate platform that helps you find, buy, rent, or sell properties with ease. With verified listings, a clean interface, and real-time updates, we make your property search simple, secure, and efficient.</p>
                 <button className='bg-blue-600 text-white px-8 py-2 rounded'>Learn More</button>
             </div>
         </div>
